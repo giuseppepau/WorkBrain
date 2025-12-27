@@ -34,3 +34,31 @@ Make sure these libraries are installed and available in your Python environment
 ```bash
 git clone https://github.com/giuseppepau/WorkBrain.git
 cd WorkBrain
+
+2. Ensure LibBrain and neuronumba are installed and accessible in your Python environment.
+
+3. Install Python dependencies (if not already installed):
+
+```bash
+pip install numpy matplotlib scipy
+
+---
+
+## Usage
+
+Run scripts as usual with Python, for example:
+
+```bash
+python plot_EDR.py
+python turbu/plot_Turbu2.py
+
+Note: Some scripts require preprocessed data stored in _Data_Produced/ or data loaders from LibBrain.
+
+---
+
+## Notes
+
+- This repository is intended for personal development and academic purposes.
+
+- To fully execute all analyses, access to the original LibBrain and neuronumba libraries is required.
+
