@@ -34,6 +34,7 @@ Make sure these libraries are installed and available in your Python environment
 ```bash
 git clone https://github.com/giuseppepau/WorkBrain.git
 cd WorkBrain
+```
 
 2. Ensure LibBrain and neuronumba are installed and accessible in your Python environment.
 
@@ -41,6 +42,7 @@ cd WorkBrain
 
 ```bash
 pip install numpy matplotlib scipy
+```
 
 ---
 
@@ -51,6 +53,7 @@ Run scripts as usual with Python, for example:
 ```bash
 python plot_EDR.py
 python turbu/plot_Turbu2.py
+```
 
 Note: Some scripts require preprocessed data stored in _Data_Produced/ or data loaders from LibBrain.
 
